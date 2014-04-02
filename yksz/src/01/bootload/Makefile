@@ -15,7 +15,7 @@ STRIP   = $(BINDIR)/$(ADDNAME)strip
 
 H8WRITE = ../../tools/h8write/h8write
 
-H8WRITE_SERDEV = /dev/cuad0
+H8WRITE_SERDEV = /dev/cu.usbserial-FTK1RPAV
 
 OBJS  = vector.o startup.o main.o
 OBJS += lib.o serial.o

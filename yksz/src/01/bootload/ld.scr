@@ -2,7 +2,8 @@
 OUTPUT_ARCH(h8300h)
 ENTRY("_start")
 
-SECTIONS {
+SECTIONS
+{
 	. = 0x0;
 
 	.vectors : {
@@ -23,8 +24,8 @@ SECTIONS {
 		*(.data)
 	}
 
-	.bbs : {
-		*(.bbs)
+	.bss : {
+		*(.bss)
 		*(COMMON)
 	}
 }

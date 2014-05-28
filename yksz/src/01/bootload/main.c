@@ -4,9 +4,9 @@
 
 int main(void)
 {
-	serial_init(SERIAL_DEFAULT_DEVICE);
-	puts("Hello World!\n");
-	while (1)
-		;
-	return 0;
+    serial_init(SERIAL_DEFAULT_DEVICE);
+    puts("Hello World!\n");
+    while (1)
+        ;
+    return 0;
 }
